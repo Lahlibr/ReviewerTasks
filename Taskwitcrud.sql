@@ -16,8 +16,7 @@ CREATE PROCEDURE BookOperation
     @AuthorID INT = NULL,
     @PublisherID INT = NULL,
     @YearPublished DATE = NULL
-AS
-BEGIN
+AS BEGIN
    
     IF @Action = 'ADD'
     BEGIN
