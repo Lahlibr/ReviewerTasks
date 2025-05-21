@@ -77,8 +77,8 @@ EXEC BookOperation @Action = 'GETBYID', @BookID = 1;
 
 EXEC BookOperation 
     @Action = 'UPDATE',
-    @BookID = 10,
-    @Title = 'Simple SQL - Updated',
+    @BookID = 1,
+    @Title = 'DanBrown',
     @AuthorID = 2,
     @PublisherID = 1,
     @YearPublished = '2025-01-01';
